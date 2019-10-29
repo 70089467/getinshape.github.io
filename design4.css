@@ -1,0 +1,164 @@
+﻿body {
+    background-color: darkslategray;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: springgreen;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: darkslategray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active), .dropdown:hover .dropbtn {
+            background-color: #00994C;
+        }
+
+.active {
+    background-color: #203737;
+    text-decoration: springgreen solid;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #99FFCB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: darkslategrey;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover:not(.active) {
+            background-color: #32FF98;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h1 {
+    text-align: center;
+    color: springgreen;
+}
+
+h3 {
+    color: #00994C;
+}
+
+p {
+    color: #32FF98;
+}
+
+.start {
+    color: #32FF98;
+}
+
+.header img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+}
+
+.header h1 {
+    top: 18px;
+    left: 10px;
+    text-align: center;
+}
+
+.header p {
+    top: 18px;
+    left: 10px;
+    text-align: center;
+    color: #ccffe6;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .container img {
+        vertical-align: middle;
+    }
+
+    .container .content {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+    }
+
+.personal2 {
+    color: #00994C;
+}
+
+    .personal2:hover {
+        color: #00cc66;
+    }
+
+    .personal2:active {
+        color: #00cc66;
+    }
+
+input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #006633;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover,
+    input[type="submit"]:focus {
+        background: #00994d;
+        transition: 0.2s ease;
+    }
